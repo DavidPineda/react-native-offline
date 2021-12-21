@@ -89,6 +89,6 @@ export default function makeHttpRequest(args?: Options) {
       const k = key as keyof typeof headers;
       xhr.setRequestHeader(k, combinedHeaders[k]);
     });
-    xhr.send(null);
+    // xhr.send(null);
   });
 }
